@@ -1,8 +1,8 @@
 ---
-date: '1'
+date: '2020-11-19'
 title: 'HotCoder Pvt. Ltd. Landing Page'
 cover: './demo.png'
-[comment]: # github: 'https://github.com/bchiang7/spotify-profile'
+[comment]:# github: 'https://github.com/bchiang7/spotify-profile'
 external: 'https://hotcoder.in'
 tech:
   - HTML5
