@@ -2,7 +2,7 @@
 date: '2021-10-18'
 title: 'Apariencia'
 cover: './apariencia.png'
-[comment]:# github: 'https://github.com/bchiang7/halcyon-site'
+github: ''
 external: 'https://github.com/Chaitanyap22/Portfolio-Website/raw/main/content/featured/Apariencia/Apariencia.dmg'
 tech:
   - Swiftui
