@@ -60,14 +60,18 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Chaitanya Pawar.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">I build things for the tech.</h3>;
   const four = (
     <p>
-      I'm a electronics engineer specializing in designing electronic circuits and passionate in programming. Currently, I'm focused on building accessible, human-centered Web and mobile projects at my free time{/* {' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
+      I'm an electronics engineer who enjoys programming and specializes in creating electrical
+      circuits. Currently, I'm perusing my masters degree in computer science while also hunting for
+      job prospects.
+      {/* {' '}
+      <a href="#" target="_blank" rel="noreferrer">
+        Resume
       </a>
-       */}.
+       */}
+      .
     </p>
   );
   const five = (

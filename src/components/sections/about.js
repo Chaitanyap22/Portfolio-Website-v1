@@ -65,7 +65,6 @@ const StyledPic = styled.div`
 
     &:hover,
     &:focus {
-      background: transparent;
       outline: 0;
 
       &:after {
@@ -136,12 +135,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Chaitanya and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2016 when I decided to try editing mobile app I found on github. On successful editing of the app and fulfiling the requirements of the app made me happy.
+              Hi, my name is Chaitanya Pawar. I enjoy creating web-based applications. I would
+              describe myself as enthusiastic, quick to learn, and dedicated. I'm excited to show
+              off my abilities and make the most of this opportunity. My interest in web development
+              started back in 2017 When I encountered with a project to build a website. While
+              working on it, my interest in coding grew.
             </p>
 
             <p>
-              My passion for electronics was abundant but it inclined towards computer science gradually as I was extensively involved in computer science projects.
+              My interest for electronics was strong as an electronics engineer, but it gradually
+              shifted to computer science as I became more involved in computer science initiatives.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

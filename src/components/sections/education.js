@@ -244,7 +244,7 @@ const Education = () => {
 
   return (
     <StyledEducationSection id="education" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Studied</h2>
+      <h2 className="numbered-heading">Where I've Gone to School</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
@@ -261,7 +261,8 @@ const Education = () => {
                   role="tab"
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
-                  aria-controls={`panel-${i}`}>
+                  aria-controls={`panel-${i}`}
+                >
                   <span>{company}</span>
                 </StyledTabButton>
               );
@@ -283,7 +284,8 @@ const Education = () => {
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}>
+                    hidden={activeTabId !== i}
+                  >
                     <h3>
                       <span>{title}</span>
                       <span className="company">

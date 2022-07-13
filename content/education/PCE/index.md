@@ -10,5 +10,5 @@ url: 'https://www.pce.ac.in'
 - Passed with CGPA of 6.95
 - Learned subjects like Advanced VLSI Design, Signals and Systems, Embedded Electronics that further enhanced my engineering skills.
 - Along with Electronics subjects I got to learn Computer Science subjects like Object Oriented Programming in C, Database Management, Computer Organization and Architecture
-- Self learned programming along languages like JAVA, SQL, Python and HTML during this Undergraduate program that made me curious about Coputer Science.
+- Self learned programming along languages like JAVA, SQL, Python and HTML during this Undergraduate program that made me curious about Computer Science.
 - Medium of learning - English.
