@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'ChaitanyaPawar',
-        short_name: 'CP',
+        short_name: 'ChaitanyaPawar',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
