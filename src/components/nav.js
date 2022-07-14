@@ -7,7 +7,7 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import monogram from '../images/monogram.svg';
+import { IconLogo } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -162,11 +162,11 @@ const Nav = ({ isHome }) => {
     <div className="logo" tabIndex="-1">
       {isHome ? (
         <a href="/" aria-label="home">
-          <img src={monogram} alt="monogram"/>
+          <IconLogo />
         </a>
       ) : (
         <Link to="/" aria-label="home">
-          <img src={monogram} alt="monogram" />
+          <IconLogo />
         </Link>
       )}
     </div>

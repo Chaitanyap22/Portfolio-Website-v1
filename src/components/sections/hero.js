@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -62,17 +62,17 @@ const Hero = () => {
   const two = <h2 className="big-heading">Chaitanya Pawar.</h2>;
   const three = <h3 className="big-heading">I build things for the tech.</h3>;
   const four = (
-    <p>
-      I'm an electronics engineer who enjoys programming and specializes in creating electrical
-      circuits. Currently, I'm perusing my masters degree in computer science while also hunting for
-      job prospects.
-      {/* {' '}
-      <a href="#" target="_blank" rel="noreferrer">
-        Resume
-      </a>
-       */}
-      .
-    </p>
+    <>
+      <p>
+        I'm an electronics engineer who enjoys programming and specializes in creating electrical
+        circuits. Currently, I'm perusing my masters degree in computer science while also hunting
+        for job prospects.{' '}
+        {/* <a href="#" target="_blank" rel="noreferrer">
+          Button
+        </a> */}
+        .
+      </p>
+    </>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">

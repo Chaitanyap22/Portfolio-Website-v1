@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Chaitanya Pawar',
     description:
-      "Chaitanya Pawar is a electronics engineer specializing in designing electronic circuits and passionate in programming. Currently, focused on building accessible, human-centered Web and mobile projects in free time.",
+      'Chaitanya Pawar is a electronics engineer specializing in designing electronic circuits and passionate in programming. Currently, focused on building accessible, human-centered Web and mobile projects in free time.',
     siteUrl: 'https://chaitanyap.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchpawar22',
+    twitterUsername: '@Chaitanyap22',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'ChaitanyaPawar',
-        short_name: 'ChaitanyaPawar',
+        short_name: 'CP',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -152,7 +152,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-6MWV82J8D9',
+        respectDNT: true,
+        enableWebVitalsTracking: true,
       },
     },
   ],
