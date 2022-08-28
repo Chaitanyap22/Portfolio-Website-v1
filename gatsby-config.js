@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Chaitanya Pawar',
     description:
-      'Chaitanya Pawar is a electronics engineer specializing in designing electronic circuits and passionate in programming. Currently, focused on building accessible, human-centered Web and mobile projects in free time.',
+      'Chaitanya Pawar is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://chaitanyap.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@Chaitanyap22',
+    twitterUsername: '@chpawar22',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -152,9 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'G-6MWV82J8D9',
-        respectDNT: true,
-        enableWebVitalsTracking: true,
+        trackingId: 'G-C8CVFYKM7Z',
       },
     },
   ],

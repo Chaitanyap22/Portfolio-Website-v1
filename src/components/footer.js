@@ -75,7 +75,6 @@ const Redheart = styled.a`
     height: 15px;
     animation: pulse 1s ease infinite;
   }
-
   @keyframes pulse {
     0% {
       transform: scale(1);
@@ -99,7 +98,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/Chaitanyap22/Portfolio-Website')
+    fetch('https://api.github.com/repos/bchiang7/v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
