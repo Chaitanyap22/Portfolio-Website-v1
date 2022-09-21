@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'chaitanyapawar220@gmail.com',
+  email: 'chaitanyap220@gmail.com',
 
   socialMedia: [
     {
@@ -19,9 +19,9 @@ module.exports = {
       url: 'https://www.linkedin.com/in/chaitanya-pawar',
     },
     /* {
-        name: 'Codepen',
-        url: 'https://codepen.io/',
-      }, */
+      name: 'Codepen',
+      url: 'https://codepen.io/bchiang7',
+    }, */
   ],
 
   navLinks: [
